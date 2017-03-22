@@ -1,0 +1,62 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="de.eosn.geoquiz.activities.BattleGroundActivity">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_gravity="top"
+        android:progress="0"/>
+
+    <fragment
+        android:id="@+id/map_battle_ground"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/done_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@drawable/ic_done_black_24dp"/>
+
+            <!-- Hack for correct distance between fabs -->
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/invisible_fab"
+                android:layout_width="@dimen/fab_margin"
+                android:layout_height="@dimen/fab_margin"
+                android:layout_gravity="top|end"
+                android:layout_margin="@dimen/fab_margin"
+                android:visibility="invisible"
+                app:layout_anchor="@id/done_fab"
+                app:layout_anchorGravity="top"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/question_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_margin="@dimen/fab_margin"
+                app:backgroundTint="@android:color/white"
+                app:layout_anchor="@id/invisible_fab"
+                app:layout_anchorGravity="top|right|end"
+                app:srcCompat="@drawable/ic_info_accent_color_24dp"/>
+        </android.support.design.widget.CoordinatorLayout>
+
+    </fragment>
+</LinearLayout>

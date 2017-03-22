@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="de.eosn.geoquiz.activities.RoundStatisticsActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <fragment
+            android:id="@+id/map_round_statistics"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/next_round_fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@drawable/ic_done_black_24dp"/>
+
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <TextView
+                android:id="@+id/winner_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/label_margin_normal"
+                android:layout_marginTop="@dimen/label_margin_big"
+                android:text="@string/dummy_label_winner"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="3dp"
+                android:background="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+
+                <TextView
+                    android:id="@+id/answer_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/label_margin_normal"
+                    android:layout_marginTop="@dimen/label_margin_normal"
+                    android:text="@string/dummy_label_answer_star_trek_ipsum"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <TextView
+                    android:id="@+id/first_player_label_round_statistics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/label_margin_normal"
+                    android:layout_marginTop="@dimen/label_margin_normal"
+                    android:text="@string/dummy_label_player"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/distance_target_label_first_player"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_label_distance_target"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/won_rounds_label_first_player"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/label_margin_normal"
+                    android:text="@string/dummy_label_won_rounds"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <TextView
+                    android:id="@+id/second_player_label_round_statistics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/label_margin_normal"
+                    android:layout_marginTop="@dimen/label_margin_big"
+                    android:text="@string/dummy_label_player"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/distance_target_label_second_player"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_label_distance_target"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/won_rounds_label_second_player"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/label_margin_normal"
+                    android:text="@string/dummy_label_won_rounds"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

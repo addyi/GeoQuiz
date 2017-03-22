@@ -1,0 +1,79 @@
+[
+  {
+    "question": "Wo liegt der Brocken (Berg)?",
+    "lat": 51.799423,
+    "long": 10.615218,
+    "answer": "Der Brocken ist der höchste Berg im Norden Deutschlands. (Sachsen-Anhalt)",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo wurde Angela Merkel geboren?",
+    "lat": 53.551085,
+    "long": 9.993682,
+    "answer": "Angela Merkel wurde am 17. Juli 1954 in Hamburg geboren.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo liegt der Trevi-Brunnen?",
+    "lat": 41.900933,
+    "long": 12.483313,
+    "answer": "Der Trevi-Brunnen, ist der populärste und größte Brunnen Roms.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo liegt der Eiffelturm?",
+    "lat": 48.858370,
+    "long": 2.294481,
+    "answer": "Der Eiffelturm ist ein 324 Meter hoher Eisenfachwerkturm in Paris.",
+    "creator": "addyi"
+  },
+  {
+    "question": "In welche Stadt wurde der Nullmeridian gelegt?",
+    "lat": 51.476853,
+    "long": 0,
+    "answer": "Der Nullmeridian geht durch die Londoner Sternwarte Greenwich.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo liegt der Bundesgerichtshof?",
+    "lat": 49.006072,
+    "long": 8.396352,
+    "answer": "Der Bundesgerichtshof in Karlsruhe ist das oberste Gericht der Bundesrepublik Deutschland.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo liegt der Europäische Gerichtshof?",
+    "lat": 48.596657,
+    "long": 7.774414,
+    "answer": "Der Europäische Gerichtshof (EuGH), mit Sitz in Luxemburg ist das oberste rechtsprechende Organ der EU.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo tagt der Bundestag?",
+    "lat": 52.518620,
+    "long": 13.376187,
+    "answer": "Die Sitzungen des Bundestages finden im Reichstagsgebäude in Berlin statt.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo wurde Linus Torvalds (Linux Erfinder) geboren?",
+    "lat": 60.169856,
+    "long": 24.938379,
+    "answer": "Linus Torvalds wurde am 28. Dezember 1969 in Helsinki geboren.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo gibt es die Original Sacher-Torte?",
+    "lat": 48.204059,
+    "long": 16.369804,
+    "answer": "Die Original Sacher-Torte gibt es nur im Hotel Sacher in Wien.",
+    "creator": "addyi"
+  },
+  {
+    "question": "Wo ist der Sitz des Spanischen Königshaus?",
+    "lat": 40.417955,
+    "long": -3.714312,
+    "answer": "Die offizielle Residenz des spanischen Königshauses ist der Palacio Real in Madrid.",
+    "creator": "addyi"
+  }
+]

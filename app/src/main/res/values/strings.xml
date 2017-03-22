@@ -1,0 +1,42 @@
+<resources>
+
+    <string name="dummy_label_player" translatable="false">Player 1: 1234567890</string>
+    <string name="dummy_label_winner" translatable="false">Winner of Round: 1234567890</string>
+    <string name="dummy_label_distance_target" translatable="false">Distance to Target: 3000 km</string>
+    <string name="dummy_label_won_rounds" translatable="false">Won rounds total: 10</string>
+    <string name="dummy_label_answer_star_trek_ipsum" translatable="false">Communication is not possible. The shuttle has no power. Using the gravitational pull of a star to slingshot back in time?</string>
+
+    <string name="app_name">GeoQuiz</string>
+    <string name="first_player_name_label">Player 1</string>
+    <string name="second_player_name_label">Player 2</string>
+    <string name="decrement_time_icon">Decrement Time</string>
+    <string name="increment_time_icon">Increment Time</string>
+    <string name="decrement_rounds_icon">Decrement Round</string>
+    <string name="increment_rounds_icon">Increment Round</string>
+    <string name="numOfRounds">Rounds</string>
+    <string name="time">Term (sec)</string>
+    <string name="start_game">Start Game</string>
+    <string name="ok">OK</string>
+    <string name="player">Player</string>
+    <string name="distance_to_target">Distance to Target:</string>
+    <string name="won_rounds_total">Won Rounds:</string>
+    <string name="new_game">New Game</string>
+    <string name="winner_image">Winner Image</string>
+    <string name="point_registered">Point registered</string>
+    <string name="point_registered_msg">Your last point was registered.</string>
+    <string name="time_is_up">Time is up</string>
+    <string name="time_is_up_msg">Your time is up. Your last point was registered.</string>
+    <string name="all_winner">Hooray! Everybody is a winner.</string>
+    <string name="round_winner">Winner of round:</string>
+    <string name="searched_target">Searched target</string>
+    <string name="infinity">infinity</string>
+    <string name="winner_total">Won rounds total:</string>
+    <string name="first_winner">First winner:</string>
+    <string name="second_winner">Second winner:</string>
+    <string name="winner">Winner:</string>
+    <string name="equal_names_error">Choose different names</string>
+    <string name="name_constraints">Min 3, Max 12 Characters</string>
+    <string name="quit_game">Quit Game</string>
+    <string name="abbreviation_seconds">sec</string>
+
+</resources>

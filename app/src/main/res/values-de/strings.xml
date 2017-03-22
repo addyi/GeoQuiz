@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="first_player_name_label">Spielername 1</string>
+    <string name="second_player_name_label">Spielername 2</string>
+    <string name="decrement_time_icon">Decrement Zeit</string>
+    <string name="increment_time_icon">Increment Zeit</string>
+    <string name="decrement_rounds_icon">Decrement Runde</string>
+    <string name="increment_rounds_icon">Increment Runde</string>
+    <string name="numOfRounds">Runden</string>
+    <string name="time">Rundendauer (sec)</string>
+    <string name="start_game">Spiel starten</string>
+    <string name="ok">OK</string>
+    <string name="player">Spieler</string>
+    <string name="distance_to_target">Abstand vom Ziel:</string>
+    <string name="won_rounds_total">Gewonnene Runden gesamt:</string>
+    <string name="new_game">Neues Spiel</string>
+    <string name="winner_image">Gewinner Bild</string>
+    <string name="point_registered">Punkt registriert</string>
+    <string name="point_registered_msg">Dein letzter Punkt wurde registriert.</string>
+    <string name="time_is_up">Zeit ist abgelaufen</string>
+    <string name="time_is_up_msg">Deine Zeit ist abgelaufen. Der letzter Punkt wurde Registriert.</string>
+    <string name="all_winner">Hurra! Alle sind Gewinner.</string>
+    <string name="round_winner">Rundengewinner:</string>
+    <string name="searched_target">Gesuchter Ort</string>
+    <string name="infinity">Unendlich</string>
+    <string name="winner_total">Gewonnene Runden gesamt:</string>
+    <string name="first_winner">Erster Gewinner:</string>
+    <string name="second_winner">Zweiter Gewinner:</string>
+    <string name="winner">Gewinner:</string>
+    <string name="equal_names_error">Keine gleichen Namen</string>
+    <string name="name_constraints">Länge: min 3, max 12 Zeichen</string>
+    <string name="quit_game">Spiel beenden</string>
+    <string name="abbreviation_seconds">s</string>
+</resources>
